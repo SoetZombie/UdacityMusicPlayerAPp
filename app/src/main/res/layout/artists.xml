@@ -105,4 +105,16 @@
         android:layout_alignLeft="@+id/buyMusicButton"
         android:layout_alignStart="@+id/buyMusicButton" />
 
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nowPlayingButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView3"
+        android:layout_alignLeft="@+id/nowPlayingButton"
+        android:layout_alignStart="@+id/nowPlayingButton"
+        android:contentDescription="this activity is  showing list of artists in scroll view" />
+
 </RelativeLayout>

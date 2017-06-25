@@ -89,4 +89,16 @@
         android:layout_above="@+id/imageButton"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:text="For music playing we will use android medaia player library which can help us playing music , also this activity is responsible for playing music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_below="@+id/nowPlayinTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/buyMusicButton"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+
 </RelativeLayout>
